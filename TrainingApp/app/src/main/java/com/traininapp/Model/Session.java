@@ -42,4 +42,24 @@ public class Session {
     public List<Exercise> getExerciseList() {
         return exerciseList;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setExerciseList(List<Exercise> exerciseList) {
+        this.exerciseList = exerciseList;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
 }
