@@ -62,4 +62,5 @@ public class Session {
     public void setDate(LocalDate date) {
         this.date = date;
     }
+
 }

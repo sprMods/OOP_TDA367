@@ -1,4 +1,4 @@
-package com.traininapp.viewModel;
+package com.traininapp.ViewModel;
 
 public class TrainingAppViewModel {
 }
