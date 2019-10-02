@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<TextView android:id="@+id/txtSessionName"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="4dp">
-    <TextView
-        android:id="@+id/txtSessionName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="1dp"
-        android:textSize="18sp" />
-    <TextView
-        android:id="@+id/txtSessionDate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="1dp" />
-</LinearLayout>
+    android:padding="1dp"
+    android:textSize="18sp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
