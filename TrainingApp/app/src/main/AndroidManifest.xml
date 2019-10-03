@@ -19,9 +19,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ViewModel.UpcomingSessionsActivity" >
-        </activity>
-
     </application>
 
 </manifest>

@@ -10,17 +10,15 @@ import com.traininapp.R;
 public class SessionHolder extends RecyclerView.ViewHolder {
 
     private TextView txtSessionName;
-    private TextView txtSessionDate;
 
-    public SessionHolder(View itemView) {
+    public SessionHolder(TextView itemView) {
         super(itemView);
-        txtSessionName = itemView.findViewById(R.id.txtSessionName);
-        txtSessionDate = itemView.findViewById(R.id.txtSessionDate);
+        txtSessionName = itemView;
     }
 
-    public void setDetails(Session session) {
-        txtSessionName.setText(session.getName());
-        txtSessionDate.setText("Här ska stå ett datum"); //TODO Fixa så att datum visas
+    public void setDetails(String msg) {
+        txtSessionName.setText(msg);
+        // txtSessionDate.setText("Här ska stå ett datum"); //TODO Fixa så att datum visas
     }
 
 
